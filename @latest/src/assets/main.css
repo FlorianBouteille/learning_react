@@ -30,3 +30,55 @@
     width:30px;
     height:30px;
 }
+
+.menu-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button
+{
+    padding:2%;
+    margin: 2%;
+    border: 2px solid black;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.button:hover
+{
+    border: none;
+}
+
+.gameTile
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(176, 172, 172);
+    text-align: center;
+    transition: 0.1s;
+}
+
+.gameTile:hover
+{
+    border: 3px solid rgb(106, 102, 102);
+}
+
+.gameRow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgTile
+{
+    width: 100%;
+}
+
+.depth
+{
+    position: sticky;
+    top: 20px;
+}
